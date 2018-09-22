@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537578689772' stop='1537578720358'>
+    <name>Add New Project, positive</name>
+    <title>Add New Project, positive</title>
+    <test-cases>
+        <test-case start='1537578689773' status='passed' stop='1537578720358'>
+            <name>Add New Project,  positive</name>
+            <title>Add New Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537578689774' status='passed' stop='1537578703739'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578703936' status='passed' stop='1537578704898'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578704161' status='passed' stop='1537578704162'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578704480' status='passed' stop='1537578704481'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578704721' status='passed' stop='1537578704722'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537578705742' status='passed' stop='1537578705903'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578711041' status='passed' stop='1537578712460'>
+                    <name>Click on the "Add New Product" button</name>
+                    <title>Click on the "Add New Product" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578711712' status='passed' stop='1537578711713'>
+                            <name>Enter data("Bohdan_Burtak_Test_001") in the product name field</name>
+                            <title>Enter data("Bohdan_Burtak_Test_001") in the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537578712603' status='passed' stop='1537578714207'>
+                    <name>Click on the "Product Family" drop down list</name>
+                    <title>Click on the "Product Family" drop down list</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578713208' status='passed' stop='1537578713209'>
+                            <name>Enter valid data("aaaaa") in the product family field</name>
+                            <title>Enter valid data("aaaaa") in the product family field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578713772' status='passed' stop='1537578713773'>
+                            <name>Checking for existence of the entered the "aaaaa" product family</name>
+                            <title>Checking for existence of the entered the "aaaaa" product family</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537578714207' status='passed' stop='1537578714459'>
+                    <name>Click on the "Save" button</name>
+                    <title>Click on the "Save" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7288bd2e-400f-455f-963b-6b0e9ca0e810-attachment.png' type='image/png' size='55351'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

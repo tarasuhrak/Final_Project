@@ -1,0 +1,151 @@
+{
+  "uid" : "71f91d750c9164",
+  "name" : "sign in, scorer",
+  "fullName" : "sign in, positive, scorer.sign in, scorer",
+  "historyId" : "79da725672a329bc77350d52e68ea4b3",
+  "time" : {
+    "start" : 1537387641472,
+    "stop" : 1537387652279,
+    "duration" : 10807
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387641487,
+        "stop" : 1537387645693,
+        "duration" : 4206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sign in",
+      "time" : {
+        "start" : 1537387648078,
+        "stop" : 1537387648588,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on the \"LOGIN\" button",
+        "time" : {
+          "start" : 1537387648078,
+          "stop" : 1537387648588,
+          "duration" : 510
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Enter data in the \"Email\" field",
+          "time" : {
+            "start" : 1537387648189,
+            "stop" : 1537387648189,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Enter data in the \"Password\" field",
+          "time" : {
+            "start" : 1537387648380,
+            "stop" : 1537387648384,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Click on the \"SIGN IN\" button",
+          "time" : {
+            "start" : 1537387648502,
+            "stop" : 1537387648506,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bec712627b78f029",
+      "name" : "Screenshot",
+      "source" : "bec712627b78f029.png",
+      "type" : "image/png",
+      "size" : 26120
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sign in, positive, scorer"
+  }, {
+    "name" : "testClass",
+    "value" : "sign in, positive, scorer"
+  }, {
+    "name" : "testMethod",
+    "value" : "sign in, scorer"
+  }, {
+    "name" : "package",
+    "value" : "sign in, positive, scorer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71f91d750c9164.json",
+  "parameterValues" : [ ]
+}

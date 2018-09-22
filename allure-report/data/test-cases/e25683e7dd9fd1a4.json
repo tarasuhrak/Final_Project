@@ -1,0 +1,151 @@
+{
+  "uid" : "e25683e7dd9fd1a4",
+  "name" : "sign in, negative: username is invalid and password valid, admin",
+  "fullName" : "sign in, negative, admin.sign in, negative: username is invalid and password valid, admin",
+  "historyId" : "dd059b0bdefb850dcb39075d22de4546",
+  "time" : {
+    "start" : 1537387621390,
+    "stop" : 1537387631138,
+    "duration" : 9748
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387621390,
+        "stop" : 1537387625636,
+        "duration" : 4246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sign in",
+      "time" : {
+        "start" : 1537387625636,
+        "stop" : 1537387627847,
+        "duration" : 2211
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on the \"LOGIN\" button",
+        "time" : {
+          "start" : 1537387625636,
+          "stop" : 1537387627847,
+          "duration" : 2211
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Enter data in the \"Email\" field",
+          "time" : {
+            "start" : 1537387627492,
+            "stop" : 1537387627496,
+            "duration" : 4
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Enter data in the \"Password\" field",
+          "time" : {
+            "start" : 1537387627643,
+            "stop" : 1537387627643,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Click on the \"SIGN IN\" button",
+          "time" : {
+            "start" : 1537387627759,
+            "stop" : 1537387627759,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "85be7448e6266508",
+      "name" : "Screenshot",
+      "source" : "85be7448e6266508.png",
+      "type" : "image/png",
+      "size" : 30042
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sign in, negative, admin"
+  }, {
+    "name" : "testClass",
+    "value" : "sign in, negative, admin"
+  }, {
+    "name" : "testMethod",
+    "value" : "sign in, negative: username is invalid and password valid, admin"
+  }, {
+    "name" : "package",
+    "value" : "sign in, negative, admin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e25683e7dd9fd1a4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537578662861' stop='1537578689760'>
+    <name>Add New Project, negative: enter valid data in the product name field and invalid data("") in the "Product Family" field</name>
+    <title>Add New Project, negative: enter valid data in the product name field and invalid data("") in the "Product Family" field</title>
+    <test-cases>
+        <test-case start='1537578662861' status='passed' stop='1537578689759'>
+            <name>Add New Project,  positive</name>
+            <title>Add New Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537578662863' status='passed' stop='1537578676983'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578677155' status='passed' stop='1537578678122'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578677369' status='passed' stop='1537578677370'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578677682' status='passed' stop='1537578677687'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578677948' status='passed' stop='1537578677948'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537578678792' status='passed' stop='1537578678980'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578683476' status='passed' stop='1537578685289'>
+                    <name>Click on the "Add New Product" button</name>
+                    <title>Click on the "Add New Product" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578684286' status='passed' stop='1537578684286'>
+                            <name>Enter data("Bohdan Burtak Test n001") in the product name field</name>
+                            <title>Enter data("Bohdan Burtak Test n001") in the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578685006' status='passed' stop='1537578685007'>
+                            <name>Click on the "Save" button</name>
+                            <title>Click on the "Save" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='52deb99c-2f1f-4f16-bee4-b2d9169dac67-attachment.png' type='image/png' size='45420'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,121 @@
+{
+  "uid" : "bf03fa6d9af8bd22",
+  "name" : "sign in, negative: username is valid and password is invalid(isn`t entered data), scorer",
+  "fullName" : "sign in, negative, scorer.sign in, negative: username is valid and password is invalid(isn`t entered data), scorer",
+  "historyId" : "eff606f096d2a951e77d3f1eecb8c875",
+  "time" : {
+    "start" : 1537387601592,
+    "stop" : 1537387610716,
+    "duration" : 9124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387601592,
+        "stop" : 1537387607291,
+        "duration" : 5699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"LOGIN\" button",
+      "time" : {
+        "start" : 1537387607371,
+        "stop" : 1537387607706,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter data in the \"Email\" field",
+        "time" : {
+          "start" : 1537387607463,
+          "stop" : 1537387607463,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter data in the \"Password\" field",
+        "time" : {
+          "start" : 1537387607638,
+          "stop" : 1537387607638,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9d54550054f23948",
+      "name" : "Screenshot",
+      "source" : "9d54550054f23948.png",
+      "type" : "image/png",
+      "size" : 22316
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sign in, negative, scorer"
+  }, {
+    "name" : "testClass",
+    "value" : "sign in, negative, scorer"
+  }, {
+    "name" : "testMethod",
+    "value" : "sign in, negative: username is valid and password is invalid(isn`t entered data), scorer"
+  }, {
+    "name" : "package",
+    "value" : "sign in, negative, scorer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf03fa6d9af8bd22.json",
+  "parameterValues" : [ ]
+}

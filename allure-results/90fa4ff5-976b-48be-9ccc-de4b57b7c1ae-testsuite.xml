@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537583896401' stop='1537583915340'>
+    <name>Login, negative, admin</name>
+    <title>Login, negative, admin</title>
+    <test-cases>
+        <test-case start='1537583896402' status='passed' stop='1537583915340'>
+            <name>Login, negative: username - invalid,  password - valid, admin</name>
+            <title>Login, negative: username - invalid,  password - valid, admin</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537583896403' status='passed' stop='1537583909694'>
+                    <name>Open  main page</name>
+                    <title>Open  main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583909694' status='passed' stop='1537583910829'>
+                    <name>Login</name>
+                    <title>Login</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537583909694' status='passed' stop='1537583910829'>
+                            <name>Click on the "LOGIN" button</name>
+                            <title>Click on the "LOGIN" button</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1537583909926' status='passed' stop='1537583909927'>
+                                    <name>Enter data in the "Email" field</name>
+                                    <title>Enter data in the "Email" field</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1537583910249' status='passed' stop='1537583910250'>
+                                    <name>Enter data in the "Password" field</name>
+                                    <title>Enter data in the "Password" field</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1537583910661' status='passed' stop='1537583910662'>
+                                    <name>Click on the "SIGN IN" button</name>
+                                    <title>Click on the "SIGN IN" button</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1118436a-6875-40da-a93d-aa955b5fe878-attachment.png' type='image/png' size='22010'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

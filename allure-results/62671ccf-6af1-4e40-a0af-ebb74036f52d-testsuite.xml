@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537387542853' stop='1537387557841'>
+    <name>Changes in product, positive</name>
+    <title>Changes in product, positive</title>
+    <test-cases>
+        <test-case start='1537387542853' status='passed' stop='1537387557837'>
+            <name>Delete Project,  positive</name>
+            <title>Delete Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537387542853' status='passed' stop='1537387548659'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387548753' status='passed' stop='1537387549195'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387548854' status='passed' stop='1537387548854'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387548998' status='passed' stop='1537387548998'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387549114' status='passed' stop='1537387549114'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537387549652' status='passed' stop='1537387549777'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387551612' status='passed' stop='1537387552124'>
+                    <name>Enter the "Bohdan_Burtak_Test_001" product name in the search field</name>
+                    <title>Enter the "Bohdan_Burtak_Test_001" product name in the search field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387552223' status='passed' stop='1537387552296'>
+                    <name>Click on the "Bohdan_Burtak_Test_001" product link</name>
+                    <title>Click on the "Bohdan_Burtak_Test_001" product link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387553414' status='passed' stop='1537387553774'>
+                    <name>Click on the edit icon-button</name>
+                    <title>Click on the edit icon-button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387553575' status='passed' stop='1537387553575'>
+                            <name>Clear the product name field</name>
+                            <title>Clear the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387553634' status='passed' stop='1537387553634'>
+                            <name>Enter data("Bohdan_Test_001") in the product name field</name>
+                            <title>Enter data("Bohdan_Test_001") in the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537387553846' status='passed' stop='1537387554385'>
+                    <name>Click on the "Product Family" drop down list</name>
+                    <title>Click on the "Product Family" drop down list</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387554026' status='passed' stop='1537387554026'>
+                            <name>Enter valid data("AQA JS FAMILY") in the product family field</name>
+                            <title>Enter valid data("AQA JS FAMILY") in the product family field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387554261' status='passed' stop='1537387554261'>
+                            <name>Checking for existence of the entered the "AQA JS FAMILY" product family</name>
+                            <title>Checking for existence of the entered the "AQA JS FAMILY" product family</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537387554385' status='passed' stop='1537387554473'>
+                    <name>Click on the "Save" button</name>
+                    <title>Click on the "Save" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6019d388-767c-479f-96a1-bdad2b154712-attachment.png' type='image/png' size='76602'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

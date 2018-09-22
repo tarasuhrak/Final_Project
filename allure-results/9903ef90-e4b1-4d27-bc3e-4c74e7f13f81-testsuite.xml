@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537578888785' stop='1537578909406'>
+    <name>sign in, positive, scorer</name>
+    <title>sign in, positive, scorer</title>
+    <test-cases>
+        <test-case start='1537578888785' status='passed' stop='1537578909405'>
+            <name>sign in, scorer</name>
+            <title>sign in, scorer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537578888787' status='passed' stop='1537578904040'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578904236' status='passed' stop='1537578905347'>
+                    <name>Sign in</name>
+                    <title>Sign in</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578904236' status='passed' stop='1537578905347'>
+                            <name>Click on the "LOGIN" button</name>
+                            <title>Click on the "LOGIN" button</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1537578904468' status='passed' stop='1537578904468'>
+                                    <name>Enter data in the "Email" field</name>
+                                    <title>Enter data in the "Email" field</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1537578904879' status='passed' stop='1537578904880'>
+                                    <name>Enter data in the "Password" field</name>
+                                    <title>Enter data in the "Password" field</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1537578905150' status='passed' stop='1537578905150'>
+                                    <name>Click on the "SIGN IN" button</name>
+                                    <title>Click on the "SIGN IN" button</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='290d03db-15bb-4e82-8780-e53224992206-attachment.png' type='image/png' size='23103'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

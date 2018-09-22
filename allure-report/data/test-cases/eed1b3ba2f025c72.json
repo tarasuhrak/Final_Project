@@ -1,0 +1,224 @@
+{
+  "uid" : "eed1b3ba2f025c72",
+  "name" : "Add new product family,  positive",
+  "fullName" : "Add new product family, positive.Add new product family,  positive",
+  "historyId" : "d4482d69d46da00c3f7d5266b044e4fc",
+  "time" : {
+    "start" : 1537387488505,
+    "stop" : 1537387501626,
+    "duration" : 13121
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387488505,
+        "stop" : 1537387493413,
+        "duration" : 4908
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"LOGIN\" button",
+      "time" : {
+        "start" : 1537387493501,
+        "stop" : 1537387493912,
+        "duration" : 411
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter data in the \"Email\" field",
+        "time" : {
+          "start" : 1537387493592,
+          "stop" : 1537387493592,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter data in the \"Password\" field",
+        "time" : {
+          "start" : 1537387493740,
+          "stop" : 1537387493740,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on the \"SIGN IN\" button",
+        "time" : {
+          "start" : 1537387493844,
+          "stop" : 1537387493844,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"ADMINISTRATION\" button",
+      "time" : {
+        "start" : 1537387494395,
+        "stop" : 1537387494456,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Add New Product\" button",
+      "time" : {
+        "start" : 1537387495932,
+        "stop" : 1537387496177,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Edit\" Product Family button",
+      "time" : {
+        "start" : 1537387496273,
+        "stop" : 1537387496405,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Add Product Family\" link",
+      "time" : {
+        "start" : 1537387497400,
+        "stop" : 1537387497690,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter valid data(\"Burtak_test_NPF\") in the Product Family Name field",
+      "time" : {
+        "start" : 1537387497749,
+        "stop" : 1537387497979,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the save button",
+      "time" : {
+        "start" : 1537387498051,
+        "stop" : 1537387498152,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9907113f1d500c22",
+      "name" : "Screenshot",
+      "source" : "9907113f1d500c22.png",
+      "type" : "image/png",
+      "size" : 66255
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Add new product family, positive"
+  }, {
+    "name" : "testClass",
+    "value" : "Add new product family, positive"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add new product family,  positive"
+  }, {
+    "name" : "package",
+    "value" : "Add new product family, positive"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eed1b3ba2f025c72.json",
+  "parameterValues" : [ ]
+}

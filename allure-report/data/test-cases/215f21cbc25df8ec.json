@@ -1,0 +1,151 @@
+{
+  "uid" : "215f21cbc25df8ec",
+  "name" : "sign in, admin",
+  "fullName" : "sign in, positive, admin.sign in, admin",
+  "historyId" : "f0f621ee694bf298adf6bc5d8ba1188",
+  "time" : {
+    "start" : 1537387631152,
+    "stop" : 1537387641472,
+    "duration" : 10320
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387631152,
+        "stop" : 1537387637570,
+        "duration" : 6418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sign in",
+      "time" : {
+        "start" : 1537387637570,
+        "stop" : 1537387638008,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on the \"LOGIN\" button",
+        "time" : {
+          "start" : 1537387637570,
+          "stop" : 1537387638008,
+          "duration" : 438
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Enter data in the \"Email\" field",
+          "time" : {
+            "start" : 1537387637672,
+            "stop" : 1537387637672,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Enter data in the \"Password\" field",
+          "time" : {
+            "start" : 1537387637808,
+            "stop" : 1537387637808,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Click on the \"SIGN IN\" button",
+          "time" : {
+            "start" : 1537387637923,
+            "stop" : 1537387637923,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5b7cf4416a6b1543",
+      "name" : "Screenshot",
+      "source" : "5b7cf4416a6b1543.png",
+      "type" : "image/png",
+      "size" : 29829
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "sign in, positive, admin"
+  }, {
+    "name" : "testClass",
+    "value" : "sign in, positive, admin"
+  }, {
+    "name" : "testMethod",
+    "value" : "sign in, admin"
+  }, {
+    "name" : "package",
+    "value" : "sign in, positive, admin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "215f21cbc25df8ec.json",
+  "parameterValues" : [ ]
+}

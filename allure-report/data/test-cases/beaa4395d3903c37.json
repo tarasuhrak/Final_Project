@@ -1,0 +1,286 @@
+{
+  "uid" : "beaa4395d3903c37",
+  "name" : "Delete Project,  positive",
+  "fullName" : "Changes in product, positive.Delete Project,  positive",
+  "historyId" : "cc8d3f7c464f563f19259f029f1a5036",
+  "time" : {
+    "start" : 1537387542853,
+    "stop" : 1537387557837,
+    "duration" : 14984
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387542853,
+        "stop" : 1537387548659,
+        "duration" : 5806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"LOGIN\" button",
+      "time" : {
+        "start" : 1537387548753,
+        "stop" : 1537387549195,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter data in the \"Email\" field",
+        "time" : {
+          "start" : 1537387548854,
+          "stop" : 1537387548854,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter data in the \"Password\" field",
+        "time" : {
+          "start" : 1537387548998,
+          "stop" : 1537387548998,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on the \"SIGN IN\" button",
+        "time" : {
+          "start" : 1537387549114,
+          "stop" : 1537387549114,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"ADMINISTRATION\" button",
+      "time" : {
+        "start" : 1537387549652,
+        "stop" : 1537387549777,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter the \"Bohdan_Burtak_Test_001\" product name in the search field",
+      "time" : {
+        "start" : 1537387551612,
+        "stop" : 1537387552124,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Bohdan_Burtak_Test_001\" product link",
+      "time" : {
+        "start" : 1537387552223,
+        "stop" : 1537387552296,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the edit icon-button",
+      "time" : {
+        "start" : 1537387553414,
+        "stop" : 1537387553774,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clear the product name field",
+        "time" : {
+          "start" : 1537387553575,
+          "stop" : 1537387553575,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter data(\"Bohdan_Test_001\") in the product name field",
+        "time" : {
+          "start" : 1537387553634,
+          "stop" : 1537387553634,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Product Family\" drop down list",
+      "time" : {
+        "start" : 1537387553846,
+        "stop" : 1537387554385,
+        "duration" : 539
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter valid data(\"AQA JS FAMILY\") in the product family field",
+        "time" : {
+          "start" : 1537387554026,
+          "stop" : 1537387554026,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Checking for existence of the entered the \"AQA JS FAMILY\" product family",
+        "time" : {
+          "start" : 1537387554261,
+          "stop" : 1537387554261,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Save\" button",
+      "time" : {
+        "start" : 1537387554385,
+        "stop" : 1537387554473,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c79f60aaad29882",
+      "name" : "Screenshot",
+      "source" : "c79f60aaad29882.png",
+      "type" : "image/png",
+      "size" : 76602
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Changes in product, positive"
+  }, {
+    "name" : "testClass",
+    "value" : "Changes in product, positive"
+  }, {
+    "name" : "testMethod",
+    "value" : "Delete Project,  positive"
+  }, {
+    "name" : "package",
+    "value" : "Changes in product, positive"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "beaa4395d3903c37.json",
+  "parameterValues" : [ ]
+}

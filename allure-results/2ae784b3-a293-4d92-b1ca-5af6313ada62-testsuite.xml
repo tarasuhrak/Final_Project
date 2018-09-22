@@ -1,0 +1,146 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537585085638' stop='1537585116027'>
+    <name>Change in product, positive</name>
+    <title>Change in product, positive</title>
+    <test-cases>
+        <test-case start='1537585085638' status='failed' stop='1537585116026'>
+            <name>Delete Project,  positive</name>
+            <title>Delete Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537585085641' status='passed' stop='1537585098794'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537585098972' status='passed' stop='1537585100473'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537585099235' status='passed' stop='1537585099236'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537585099891' status='passed' stop='1537585099892'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537585100271' status='passed' stop='1537585100272'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537585101301' status='passed' stop='1537585101465'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537585105482' status='passed' stop='1537585107576'>
+                    <name>Enter "TarasUhrak Product1" product name in the search field</name>
+                    <title>Enter "TarasUhrak Product1" product name in the search field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537585107799' status='passed' stop='1537585107984'>
+                    <name>Click on the "TarasUhrak Product1" product link</name>
+                    <title>Click on the "TarasUhrak Product1" product link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537585109230' status='passed' stop='1537585110250'>
+                    <name>Click on the edit icon-button</name>
+                    <title>Click on the edit icon-button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537585109728' status='passed' stop='1537585109729'>
+                            <name>Clear the product name field</name>
+                            <title>Clear the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537585109898' status='passed' stop='1537585109899'>
+                            <name>Enter data("TarasUhrak Product1") in the product name field</name>
+                            <title>Enter data("TarasUhrak Product1") in the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537585110445' status='broken' stop='1537585111551'>
+                    <name>Click on the "Product Family" drop down list</name>
+                    <title>Click on the "Product Family" drop down list</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537585111039' status='passed' stop='1537585111040'>
+                            <name>Enter valid data("sdfdsfsdfs") in the product family field</name>
+                            <title>Enter valid data("sdfdsfsdfs") in the product family field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537585111503' status='passed' stop='1537585111504'>
+                            <name>Checking for existence of the entered the "sdfdsfsdfs" product family</name>
+                            <title>Checking for existence of the entered the "sdfdsfsdfs" product family</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, li.dropdown-item a span)</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, li.dropdown-item a span)
+                    at elementArrayFinder.getWebElements.then (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:814:27)
+                    at ManagedPromise.invokeCallback_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:831:22)
+                    at WebDrop.drop (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\WebControl\web.dropdown.js:17:51)
+                    at allure.createStep (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Changes_in_Product .js:58:55)
+                    at C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\allure-js-commons\runtime.js:18:31
+                    at UserContext.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Changes_in_Product .js:58:74)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)
+                From: Task: Run it("Delete Project,  positive") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Changes_in_Product .js:8:5)
+                    at addSpecsToSuite (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Changes_in_Product .js:7:1)
+                    at Module._compile (module.js:653:30)
+                    at Object.Module._extensions..js (module.js:664:10)
+                    at Module.load (module.js:566:32)
+                    at tryModuleLoad (module.js:506:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

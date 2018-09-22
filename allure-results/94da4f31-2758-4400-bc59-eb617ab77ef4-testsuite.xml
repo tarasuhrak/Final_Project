@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537387501707' stop='1537387515664'>
+    <name>Add New Project, negative: enter invalid data(" ") in the product name field and valid data in the "Product Family" field</name>
+    <title>Add New Project, negative: enter invalid data(" ") in the product name field and valid data in the "Product Family" field</title>
+    <test-cases>
+        <test-case start='1537387501707' status='failed' stop='1537387515664'>
+            <name>Add New Project,  negative: enter invalid data(" ") in the product name field and valid data in the "Product Family" field</name>
+            <title>Add New Project,  negative: enter invalid data(" ") in the product name field and valid data in the "Product Family" field</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537387501711' status='passed' stop='1537387507940'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387508021' status='passed' stop='1537387508419'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387508107' status='passed' stop='1537387508107'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387508247' status='passed' stop='1537387508247'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387508351' status='passed' stop='1537387508351'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537387509020' status='passed' stop='1537387509096'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387511353' status='passed' stop='1537387511625'>
+                    <name>Click on the "Add New Product" button</name>
+                    <title>Click on the "Add New Product" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387511529' status='passed' stop='1537387511529'>
+                            <name>Enter invalid data(" ") in the product name field</name>
+                            <title>Enter invalid data(" ") in the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537387511781' status='passed' stop='1537387512566'>
+                    <name>Click on the "Product Family" drop down list</name>
+                    <title>Click on the "Product Family" drop down list</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387512108' status='passed' stop='1537387512108'>
+                            <name>Enter valid data("AQA JS FAMILY") in the product family field</name>
+                            <title>Enter valid data("AQA JS FAMILY") in the product family field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387512424' status='passed' stop='1537387512424'>
+                            <name>Checking for existence of the entered the "AQA JS FAMILY" product family</name>
+                            <title>Checking for existence of the entered the "AQA JS FAMILY" product family</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='23889eb3-035a-49d9-943d-3f1016f4f716-attachment.png' type='image/png' size='76945'/>
+            </attachments>
+            <failure>
+                <message>Expected true to be false, 'Button new product save is clickable'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\user\Desktop\Demo\tests\AddNewProject_n(invalid name).js:44:71)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

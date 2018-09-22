@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537583798228' stop='1537583832755'>
+    <name>Deleting Project, positive</name>
+    <title>Deleting Project, positive</title>
+    <test-cases>
+        <test-case start='1537583798228' status='failed' stop='1537583832754'>
+            <name>Deleting Project,  positive</name>
+            <title>Deleting Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537583798230' status='passed' stop='1537583811211'>
+                    <name>Open main page</name>
+                    <title>Open main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583811396' status='passed' stop='1537583812411'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537583811587' status='passed' stop='1537583811588'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537583811960' status='passed' stop='1537583811961'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537583812216' status='passed' stop='1537583812216'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537583813177' status='passed' stop='1537583813342'>
+                    <name>Click "ADMINISTRATION" button</name>
+                    <title>Click "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583817140' status='passed' stop='1537583818805'>
+                    <name>Enter "Taras_Test_001" </name>
+                    <title>Enter "Taras_Test_001" </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583818978' status='passed' stop='1537583819137'>
+                    <name>Click on "Taras_Test_001" link</name>
+                    <title>Click on "Taras_Test_001" link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583819294' status='passed' stop='1537583819486'>
+                    <name>Click on product delete icon-button</name>
+                    <title>Click on product delete icon-button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at ontimeout (timers.js:498:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:290:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

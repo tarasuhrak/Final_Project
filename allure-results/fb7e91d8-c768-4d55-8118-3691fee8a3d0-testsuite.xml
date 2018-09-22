@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537583705424' stop='1537583740803'>
+    <name>Add new product family, positive</name>
+    <title>Add new product family, positive</title>
+    <test-cases>
+        <test-case start='1537583705426' status='failed' stop='1537583740801'>
+            <name>Add new product family,  positive</name>
+            <title>Add new product family,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537583705458' status='passed' stop='1537583718391'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583718930' status='passed' stop='1537583723659'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537583719931' status='passed' stop='1537583719933'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537583723147' status='passed' stop='1537583723151'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537583723459' status='passed' stop='1537583723460'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537583724756' status='passed' stop='1537583725311'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583730287' status='passed' stop='1537583730846'>
+                    <name>Click on the "Add New Product" button</name>
+                    <title>Click on the "Add New Product" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583731610' status='passed' stop='1537583731881'>
+                    <name>Click on the "Edit" Product Family button</name>
+                    <title>Click on the "Edit" Product Family button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583732881' status='passed' stop='1537583734001'>
+                    <name>Click on the "Add Product Family" link</name>
+                    <title>Click on the "Add Product Family" link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583734138' status='passed' stop='1537583734822'>
+                    <name>Enter valid data("Uhrak_test_NPF") in the Product Family Name field</name>
+                    <title>Enter valid data("Uhrak_test_NPF") in the Product Family Name field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583734977' status='passed' stop='1537583735228'>
+                    <name>Click on the save button</name>
+                    <title>Click on the save button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at ontimeout (timers.js:498:11)
+                    at tryOnTimeout (timers.js:323:5)
+                    at Timer.listOnTimeout (timers.js:290:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537583832768' stop='1537583862617'>
+    <name>Add new product family, positive</name>
+    <title>Add new product family, positive</title>
+    <test-cases>
+        <test-case start='1537583832768' status='passed' stop='1537583862615'>
+            <name>Add new product family,  positive</name>
+            <title>Add new product family,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537583832770' status='passed' stop='1537583845586'>
+                    <name>Open main page</name>
+                    <title>Open main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583845784' status='passed' stop='1537583846769'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537583845982' status='passed' stop='1537583845983'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537583846346' status='passed' stop='1537583846347'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537583846590' status='passed' stop='1537583846591'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537583847889' status='passed' stop='1537583848111'>
+                    <name>Click on "ADMINISTRATION" button</name>
+                    <title>Click on "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583852157' status='passed' stop='1537583852906'>
+                    <name>Click on "Add New Product" button</name>
+                    <title>Click on "Add New Product" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583853112' status='passed' stop='1537583853373'>
+                    <name>Click on "Edit" Product Family button</name>
+                    <title>Click on "Edit" Product Family button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583853760' status='passed' stop='1537583856563'>
+                    <name>Enter "TarasUhrak_test_NPF" in Product </name>
+                    <title>Enter "TarasUhrak_test_NPF" in Product </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583857323' status='passed' stop='1537583857586'>
+                    <name>Click on the product delete confirmation button</name>
+                    <title>Click on the product delete confirmation button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

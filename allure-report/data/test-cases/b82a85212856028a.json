@@ -1,0 +1,234 @@
+{
+  "uid" : "b82a85212856028a",
+  "name" : "Add New Project,  negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field",
+  "fullName" : "Add New Project, negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field.Add New Project,  negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field",
+  "historyId" : "b462da79e93a65e909773645342ab2f6",
+  "time" : {
+    "start" : 1537387501707,
+    "stop" : 1537387515664,
+    "duration" : 13957
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected true to be false, 'Button new product save is clickable'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (C:\\Users\\user\\Desktop\\Demo\\tests\\AddNewProject_n(invalid name).js:44:71)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected true to be false, 'Button new product save is clickable'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (C:\\Users\\user\\Desktop\\Demo\\tests\\AddNewProject_n(invalid name).js:44:71)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387501711,
+        "stop" : 1537387507940,
+        "duration" : 6229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"LOGIN\" button",
+      "time" : {
+        "start" : 1537387508021,
+        "stop" : 1537387508419,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter data in the \"Email\" field",
+        "time" : {
+          "start" : 1537387508107,
+          "stop" : 1537387508107,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter data in the \"Password\" field",
+        "time" : {
+          "start" : 1537387508247,
+          "stop" : 1537387508247,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on the \"SIGN IN\" button",
+        "time" : {
+          "start" : 1537387508351,
+          "stop" : 1537387508351,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"ADMINISTRATION\" button",
+      "time" : {
+        "start" : 1537387509020,
+        "stop" : 1537387509096,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Add New Product\" button",
+      "time" : {
+        "start" : 1537387511353,
+        "stop" : 1537387511625,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter invalid data(\" \") in the product name field",
+        "time" : {
+          "start" : 1537387511529,
+          "stop" : 1537387511529,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Product Family\" drop down list",
+      "time" : {
+        "start" : 1537387511781,
+        "stop" : 1537387512566,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter valid data(\"AQA JS FAMILY\") in the product family field",
+        "time" : {
+          "start" : 1537387512108,
+          "stop" : 1537387512108,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Checking for existence of the entered the \"AQA JS FAMILY\" product family",
+        "time" : {
+          "start" : 1537387512424,
+          "stop" : 1537387512424,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a55f6405ad55f724",
+      "name" : "Screenshot",
+      "source" : "a55f6405ad55f724.png",
+      "type" : "image/png",
+      "size" : 76945
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Add New Project, negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field"
+  }, {
+    "name" : "testClass",
+    "value" : "Add New Project, negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add New Project,  negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field"
+  }, {
+    "name" : "package",
+    "value" : "Add New Project, negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b82a85212856028a.json",
+  "parameterValues" : [ ]
+}

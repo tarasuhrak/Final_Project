@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected true to be false, 'Button new product save is clickable'.",
+      "children" : [ {
+        "name" : "Add New Project,  negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field",
+        "uid" : "b82a85212856028a",
+        "parentUid" : "58d250fb38575b4498c3c1e476bb626a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537387501707,
+          "stop" : 1537387515664,
+          "duration" : 13957
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58d250fb38575b4498c3c1e476bb626a"
+    }, {
+      "name" : "Expected 'Bohdan_Test_001' not to be 'Bohdan_Test_001', 'Shown information about deleted project'.",
+      "children" : [ {
+        "name" : "Delete Project,  positive",
+        "uid" : "419b190d9a7b5756",
+        "parentUid" : "ec198e971574b05490a468f0ab7c7aec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537387744542,
+          "stop" : 1537387757126,
+          "duration" : 12584
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec198e971574b05490a468f0ab7c7aec"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

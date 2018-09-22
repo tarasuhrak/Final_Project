@@ -1,0 +1,137 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Add New Project,  negative: enter invalid data(\" \") in the product name field and valid data in the \"Product Family\" field",
+    "uid" : "b82a85212856028a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537387501707,
+      "stop" : 1537387515664,
+      "duration" : 13957
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add New Project,  positive",
+    "uid" : "3073ec8645d2ae48",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387515664,
+      "stop" : 1537387528672,
+      "duration" : 13008
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add New Project,  positive",
+    "uid" : "12481adfd7e2987c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387528676,
+      "stop" : 1537387542849,
+      "duration" : 14173
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Delete Project,  positive",
+    "uid" : "beaa4395d3903c37",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387542853,
+      "stop" : 1537387557837,
+      "duration" : 14984
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add new product family,  positive",
+    "uid" : "bba83bbe89d2ad9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387586372,
+      "stop" : 1537387601592,
+      "duration" : 15220
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "sign in, negative: username is valid and password is invalid(isn`t entered data), scorer",
+    "uid" : "bf03fa6d9af8bd22",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387601592,
+      "stop" : 1537387610716,
+      "duration" : 9124
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "sign in, negative: username is invalid(enter oversized string) and password valid, admin",
+    "uid" : "9bfb2758cb5fd85",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387610724,
+      "stop" : 1537387621390,
+      "duration" : 10666
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "sign in, negative: username is invalid and password valid, admin",
+    "uid" : "e25683e7dd9fd1a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387621390,
+      "stop" : 1537387631138,
+      "duration" : 9748
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "sign in, admin",
+    "uid" : "215f21cbc25df8ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387631152,
+      "stop" : 1537387641472,
+      "duration" : 10320
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "sign in, scorer",
+    "uid" : "71f91d750c9164",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1537387641472,
+      "stop" : 1537387652279,
+      "duration" : 10807
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Delete Project,  positive",
+    "uid" : "419b190d9a7b5756",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1537387744542,
+      "stop" : 1537387757126,
+      "duration" : 12584
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ]
+}

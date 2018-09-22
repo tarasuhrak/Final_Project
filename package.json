@@ -1,0 +1,19 @@
+{
+    "name": "test_demo",
+    "version": "1.0.0",
+    "description": "automation Test on Protractor",
+    "main": "config.js",
+    "scripts": {
+        "posttest": ".\\node_modules\\.bin\\allure generate allure-results --clean -o allure-report"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "allure-commandline": "^2.7.0",
+        "jasmine-allure-reporter": "^1.0.2",
+        "protractor": "^5.4.1"
+    },
+    "author": "Taras Uhrak"
+}

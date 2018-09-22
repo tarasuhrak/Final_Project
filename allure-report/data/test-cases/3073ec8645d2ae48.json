@@ -1,0 +1,196 @@
+{
+  "uid" : "3073ec8645d2ae48",
+  "name" : "Add New Project,  positive",
+  "fullName" : "Add New Project, negative: enter valid data in the product name field and invalid data(\"\") in the \"Product Family\" field.Add New Project,  positive",
+  "historyId" : "cde7be656ec484939b167b20c1a74d96",
+  "time" : {
+    "start" : 1537387515664,
+    "stop" : 1537387528672,
+    "duration" : 13008
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387515664,
+        "stop" : 1537387521597,
+        "duration" : 5933
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"LOGIN\" button",
+      "time" : {
+        "start" : 1537387521685,
+        "stop" : 1537387522120,
+        "duration" : 435
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter data in the \"Email\" field",
+        "time" : {
+          "start" : 1537387521776,
+          "stop" : 1537387521776,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter data in the \"Password\" field",
+        "time" : {
+          "start" : 1537387521924,
+          "stop" : 1537387521924,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on the \"SIGN IN\" button",
+        "time" : {
+          "start" : 1537387522040,
+          "stop" : 1537387522040,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"ADMINISTRATION\" button",
+      "time" : {
+        "start" : 1537387522560,
+        "stop" : 1537387522630,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Add New Product\" button",
+      "time" : {
+        "start" : 1537387524861,
+        "stop" : 1537387525584,
+        "duration" : 723
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter data(\"Bohdan Burtak Test n001\") in the product name field",
+        "time" : {
+          "start" : 1537387525120,
+          "stop" : 1537387525120,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on the \"Save\" button",
+        "time" : {
+          "start" : 1537387525492,
+          "stop" : 1537387525492,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a1f476da2360a043",
+      "name" : "Screenshot",
+      "source" : "a1f476da2360a043.png",
+      "type" : "image/png",
+      "size" : 82609
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Add New Project, negative: enter valid data in the product name field and invalid data(\"\") in the \"Product Family\" field"
+  }, {
+    "name" : "testClass",
+    "value" : "Add New Project, negative: enter valid data in the product name field and invalid data(\"\") in the \"Product Family\" field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add New Project,  positive"
+  }, {
+    "name" : "package",
+    "value" : "Add New Project, negative: enter valid data in the product name field and invalid data(\"\") in the \"Product Family\" field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3073ec8645d2ae48.json",
+  "parameterValues" : [ ]
+}

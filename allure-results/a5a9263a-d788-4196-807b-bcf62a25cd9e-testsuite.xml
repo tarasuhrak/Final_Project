@@ -1,0 +1,128 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537585057468' stop='1537585085623'>
+    <name>Add New Project, positive</name>
+    <title>Add New Project, positive</title>
+    <test-cases>
+        <test-case start='1537585057468' status='failed' stop='1537585085622'>
+            <name>Add New Project,  positive</name>
+            <title>Add New Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537585057471' status='passed' stop='1537585071022'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537585071183' status='passed' stop='1537585072134'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537585071393' status='passed' stop='1537585071394'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537585071717' status='passed' stop='1537585071718'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537585071958' status='passed' stop='1537585071961'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537585072952' status='passed' stop='1537585073339'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537585077317' status='passed' stop='1537585078639'>
+                    <name>Click on the "Add New Product" button</name>
+                    <title>Click on the "Add New Product" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537585078062' status='passed' stop='1537585078063'>
+                            <name>Enter data("Taras_Uhrak_Test_001") in the product name field</name>
+                            <title>Enter data("Taras_Uhrak_Test_001") in the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537585078809' status='broken' stop='1537585079939'>
+                    <name>Click on the "Product Family" drop down list</name>
+                    <title>Click on the "Product Family" drop down list</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537585079342' status='passed' stop='1537585079343'>
+                            <name>Enter valid data("ABCDF") in the product family field</name>
+                            <title>Enter valid data("ABCDF") in the product family field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537585079885' status='passed' stop='1537585079887'>
+                            <name>Checking for existence of the entered the "ABCDF" product family</name>
+                            <title>Checking for existence of the entered the "ABCDF" product family</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, li.dropdown-item a span)</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, li.dropdown-item a span)
+                    at elementArrayFinder.getWebElements.then (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:814:27)
+                    at ManagedPromise.invokeCallback_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at asyncRun (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+                    at C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.(anonymous function).args [as getText] (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\protractor\built\element.js:831:22)
+                    at WebDrop.drop (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\WebControl\web.dropdown.js:17:51)
+                    at allure.createStep (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Add_New_Project_positive.js:41:51)
+                    at C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\allure-js-commons\runtime.js:18:31
+                    at UserContext.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Add_New_Project_positive.js:41:65)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)
+                From: Task: Run it("Add New Project,  positive") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Add_New_Project_positive.js:8:5)
+                    at addSpecsToSuite (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Add_New_Project_positive.js:7:1)
+                    at Module._compile (module.js:653:30)
+                    at Object.Module._extensions..js (module.js:664:10)
+                    at Module.load (module.js:566:32)
+                    at tryModuleLoad (module.js:506:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

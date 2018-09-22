@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537578720371' stop='1537578752911'>
+    <name>Changes in product, positive</name>
+    <title>Changes in product, positive</title>
+    <test-cases>
+        <test-case start='1537578720371' status='failed' stop='1537578752910'>
+            <name>Delete Project,  positive</name>
+            <title>Delete Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537578720374' status='passed' stop='1537578734559'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578734719' status='passed' stop='1537578735662'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578734919' status='passed' stop='1537578734920'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578735253' status='passed' stop='1537578735256'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578735494' status='passed' stop='1537578735494'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537578736354' status='passed' stop='1537578736554'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578740862' status='passed' stop='1537578742276'>
+                    <name>Enter the "Bohdan_Burtak_Test_001" product name in the search field</name>
+                    <title>Enter the "Bohdan_Burtak_Test_001" product name in the search field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578742527' status='passed' stop='1537578742730'>
+                    <name>Click on the "Bohdan_Burtak_Test_001" product link</name>
+                    <title>Click on the "Bohdan_Burtak_Test_001" product link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537578743952' status='passed' stop='1537578745000'>
+                    <name>Click on the edit icon-button</name>
+                    <title>Click on the edit icon-button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578744393' status='passed' stop='1537578744394'>
+                            <name>Clear the product name field</name>
+                            <title>Clear the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578744652' status='passed' stop='1537578744656'>
+                            <name>Enter data("Bohdan_Test_001") in the product name field</name>
+                            <title>Enter data("Bohdan_Test_001") in the product name field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537578745155' status='passed' stop='1537578746714'>
+                    <name>Click on the "Product Family" drop down list</name>
+                    <title>Click on the "Product Family" drop down list</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537578745777' status='passed' stop='1537578745778'>
+                            <name>Enter valid data("AQA JS FAMILY") in the product family field</name>
+                            <title>Enter valid data("AQA JS FAMILY") in the product family field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537578746574' status='passed' stop='1537578746575'>
+                            <name>Checking for existence of the entered the "AQA JS FAMILY" product family</name>
+                            <title>Checking for existence of the entered the "AQA JS FAMILY" product family</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537578746714' status='passed' stop='1537578747058'>
+                    <name>Click on the "Save" button</name>
+                    <title>Click on the "Save" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='916851c6-d03c-4808-91d9-05d6dcb39df9-attachment.png' type='image/png' size='48794'/>
+            </attachments>
+            <failure>
+                <message>Expected $[0] = 'aaaaa' to equal 'AQA JS FAMILY'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\AddProductChanges_p.js:66:23)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

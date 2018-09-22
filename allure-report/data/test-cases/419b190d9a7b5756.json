@@ -1,0 +1,228 @@
+{
+  "uid" : "419b190d9a7b5756",
+  "name" : "Delete Project,  positive",
+  "fullName" : "Delete Project, positive.Delete Project,  positive",
+  "historyId" : "1de06e7e9b89ea6b5bfd2b22f965fb2f",
+  "time" : {
+    "start" : 1537387744542,
+    "stop" : 1537387757126,
+    "duration" : 12584
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Bohdan_Test_001' not to be 'Bohdan_Test_001', 'Shown information about deleted project'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (C:\\Users\\user\\Desktop\\Demo\\tests\\Delete.Project.js:62:23)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Bohdan_Test_001' not to be 'Bohdan_Test_001', 'Shown information about deleted project'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (C:\\Users\\user\\Desktop\\Demo\\tests\\Delete.Project.js:62:23)\n                    at <anonymous>\n                    at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "steps" : [ {
+      "name" : "Open the main page",
+      "time" : {
+        "start" : 1537387744542,
+        "stop" : 1537387750593,
+        "duration" : 6051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"LOGIN\" button",
+      "time" : {
+        "start" : 1537387750686,
+        "stop" : 1537387751091,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter data in the \"Email\" field",
+        "time" : {
+          "start" : 1537387750774,
+          "stop" : 1537387750774,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter data in the \"Password\" field",
+        "time" : {
+          "start" : 1537387750922,
+          "stop" : 1537387750922,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on the \"SIGN IN\" button",
+        "time" : {
+          "start" : 1537387751021,
+          "stop" : 1537387751021,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"ADMINISTRATION\" button",
+      "time" : {
+        "start" : 1537387751489,
+        "stop" : 1537387751550,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter the \"Bohdan_Test_001\" product name in the search field",
+      "time" : {
+        "start" : 1537387752384,
+        "stop" : 1537387753003,
+        "duration" : 619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the \"Bohdan_Test_001\" product link",
+      "time" : {
+        "start" : 1537387753094,
+        "stop" : 1537387753214,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the product delete icon-button",
+      "time" : {
+        "start" : 1537387753314,
+        "stop" : 1537387753430,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on the product delete confirmation button",
+      "time" : {
+        "start" : 1537387753702,
+        "stop" : 1537387753786,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5686e59a93bdb288",
+      "name" : "Screenshot",
+      "source" : "5686e59a93bdb288.png",
+      "type" : "image/png",
+      "size" : 74245
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Delete Project, positive"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete Project, positive"
+  }, {
+    "name" : "testMethod",
+    "value" : "Delete Project,  positive"
+  }, {
+    "name" : "package",
+    "value" : "Delete Project, positive"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8e5f354289692146",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait timed out after 15002ms",
+      "time" : {
+        "start" : 1537387557845,
+        "stop" : 1537387586364,
+        "duration" : 28519
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "419b190d9a7b5756.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537583915355' stop='1537583933637'>
+    <name>Login, negative, scorer</name>
+    <title>Login, negative, scorer</title>
+    <test-cases>
+        <test-case start='1537583915355' status='failed' stop='1537583933636'>
+            <name>Login, negative: username - valid, password - invalid, scorer</name>
+            <title>Login, negative: username - valid, password - invalid, scorer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537583915357' status='passed' stop='1537583927872'>
+                    <name>Open main page</name>
+                    <title>Open main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537583928032' status='passed' stop='1537583928996'>
+                    <name>Click  "LOGIN" button</name>
+                    <title>Click  "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537583928232' status='passed' stop='1537583928233'>
+                            <name>Enter "Email" field</name>
+                            <title>Enter "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537583928776' status='passed' stop='1537583928777'>
+                            <name>Enter "Password" field</name>
+                            <title>Enter "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4fef0190-1ca5-413a-a7ba-29de54f18581-attachment.png' type='image/png' size='16568'/>
+            </attachments>
+            <failure>
+                <message>Expected true to be false.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\Тарас\Desktop\QA_Eleks\eleks\eleks\DEMO-Task-master\DEMO-Task-master\tests\Login negative scorer.js:17:57)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

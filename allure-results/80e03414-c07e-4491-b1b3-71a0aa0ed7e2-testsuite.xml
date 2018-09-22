@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537387744542' stop='1537387757126'>
+    <name>Delete Project, positive</name>
+    <title>Delete Project, positive</title>
+    <test-cases>
+        <test-case start='1537387744542' status='failed' stop='1537387757126'>
+            <name>Delete Project,  positive</name>
+            <title>Delete Project,  positive</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537387744542' status='passed' stop='1537387750593'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387750686' status='passed' stop='1537387751091'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387750774' status='passed' stop='1537387750774'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387750922' status='passed' stop='1537387750922'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387751021' status='passed' stop='1537387751021'>
+                            <name>Click on the "SIGN IN" button</name>
+                            <title>Click on the "SIGN IN" button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1537387751489' status='passed' stop='1537387751550'>
+                    <name>Click on the "ADMINISTRATION" button</name>
+                    <title>Click on the "ADMINISTRATION" button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387752384' status='passed' stop='1537387753003'>
+                    <name>Enter the "Bohdan_Test_001" product name in the search field</name>
+                    <title>Enter the "Bohdan_Test_001" product name in the search field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387753094' status='passed' stop='1537387753214'>
+                    <name>Click on the "Bohdan_Test_001" product link</name>
+                    <title>Click on the "Bohdan_Test_001" product link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387753314' status='passed' stop='1537387753430'>
+                    <name>Click on the product delete icon-button</name>
+                    <title>Click on the product delete icon-button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387753702' status='passed' stop='1537387753786'>
+                    <name>Click on the product delete confirmation button</name>
+                    <title>Click on the product delete confirmation button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='84169a1b-f6ba-45b6-9376-2e1a4507e499-attachment.png' type='image/png' size='74245'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Bohdan_Test_001' not to be 'Bohdan_Test_001', 'Shown information about deleted project'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\user\Desktop\Demo\tests\Delete.Project.js:62:23)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

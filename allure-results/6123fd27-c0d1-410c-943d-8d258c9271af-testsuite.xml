@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537387601592' stop='1537387610716'>
+    <name>sign in, negative, scorer</name>
+    <title>sign in, negative, scorer</title>
+    <test-cases>
+        <test-case start='1537387601592' status='passed' stop='1537387610716'>
+            <name>sign in, negative: username is valid and password is invalid(isn`t entered data), scorer</name>
+            <title>sign in, negative: username is valid and password is invalid(isn`t entered data), scorer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537387601592' status='passed' stop='1537387607291'>
+                    <name>Open the main page</name>
+                    <title>Open the main page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537387607371' status='passed' stop='1537387607706'>
+                    <name>Click on the "LOGIN" button</name>
+                    <title>Click on the "LOGIN" button</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1537387607463' status='passed' stop='1537387607463'>
+                            <name>Enter data in the "Email" field</name>
+                            <title>Enter data in the "Email" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1537387607638' status='passed' stop='1537387607638'>
+                            <name>Enter data in the "Password" field</name>
+                            <title>Enter data in the "Password" field</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='77d70cdb-8eb8-4896-b349-c0e810af7cf2-attachment.png' type='image/png' size='22316'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
